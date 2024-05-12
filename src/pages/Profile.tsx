@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonImg, IonButton, IonFooter } from '@ionic/react';
+import { IonToolbar, IonContent, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonImg, IonButton, IonFooter } from '@ionic/react';
 import './Profile.css';
 import { useHistory } from 'react-router';
 

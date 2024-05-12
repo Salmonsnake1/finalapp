@@ -8,11 +8,11 @@ const SignIn: React.FC = () => {
   const [error, setError] = useState<string>('');
 
   const handleSignUpClick = () => {
-    history.push('/signup'); // Navigate to the SignUp page
+    history.push('/signup'); 
   };
 
   const handleForgotPasswordClick = () => {
-    history.push('/forgotpass'); // Navigate to the ForgotPass page
+    history.push('/forgotpass'); 
   };
 
   const handleSignInClick = () => {
@@ -24,7 +24,7 @@ const SignIn: React.FC = () => {
       return;
     }
 
-    history.push('/todo'); // Navigate to the ToDo page
+    history.push('/todo');
   };
 
   return (

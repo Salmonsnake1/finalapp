@@ -6,17 +6,17 @@ import {
   IonButton,
 } from '@ionic/react';
 import { useHistory } from 'react-router-dom';
-import './SignUp.css'; // Import your SignUp CSS file
+import './SignUp.css'; 
 
 const SignUp: React.FC = () => {
   const history = useHistory();
 
   const handleBack = () => {
-    history.goBack(); // Go back to the previous page
+    history.goBack(); 
   };
 
   const handleSignInRedirect = () => {
-    history.push('/signin'); // Redirect to SignIn page
+    history.push('/signin'); 
   };
 
   return (
@@ -26,7 +26,6 @@ const SignUp: React.FC = () => {
           <div className="signUp-form">
             <button className="signUp-back-button" onClick={handleBack}>Back</button>
             <h1>Sign Up</h1>
-            {/* Sign up form */}
             <form>
               <div className="form-group">
                 <label>First Name</label>

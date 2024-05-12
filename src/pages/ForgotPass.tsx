@@ -10,12 +10,12 @@ const ForgotPass: React.FC = () => {
   const history = useHistory();
 
   const handleBack = () => {
-    history.goBack(); // Navigate back to the previous page
+    history.goBack(); 
   };
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
-    // Here you can handle the form submission, for now, we'll just show the message
+    
     setMessage('You should receive an email within five minutes to reset your password');
   };
 
@@ -24,7 +24,7 @@ const ForgotPass: React.FC = () => {
       <IonContent>
         <div className="forgotPass-container">
           <div className="forgotPass-form">
-          <button className="forgotPass-back-button" onClick={handleBack}>Back</button> {/* Back button */}   
+          <button className="forgotPass-back-button" onClick={handleBack}>Back</button>    
             <h1>Forgot Password</h1>
             <form onSubmit={handleSubmit}>
               <div className="form-group">

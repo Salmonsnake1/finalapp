@@ -13,7 +13,7 @@ const Calendar: React.FC = () => {
   const handleProfileClick = () => {
     history.push('/profile');
   };
-  // Dummy data for days of the week and weeks in month
+  
   const daysInWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   const weeksInMonth = [
     [1, 2, 3, 4, 5, 6, 7],

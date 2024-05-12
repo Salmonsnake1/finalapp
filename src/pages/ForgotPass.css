@@ -1,39 +1,39 @@
 .forgotPass-container {
-  background-color: #FFD166; /* Orangey yellow background */
-  height: 100vh; /* Adjust height as needed */
+  background-color: #FFD166; 
+  height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .forgotPass-form {
-  width: 400px; /* Adjust width as needed */
-  margin: auto; /* Center the form horizontally */
-  padding: 40px; /* Increase padding for spacing */
-  background-color: #ffffff; /* White background for form */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  width: 400px; 
+  margin: auto; 
+  padding: 40px; 
+  background-color: #ffffff; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
 }
 
 .forgotPass-input {
-  width: 100%; /* Set width to 100% */
+  width: 100%; 
   margin-bottom: 15px;
-  border: 1px solid #cccccc; /* Grey border */
-  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #cccccc; 
+  border-radius: 5px; 
   padding: 10px;
   box-sizing: border-box;
-  text-align: center; /* Center text */
-  outline: none; /* Remove yellow highlighting */
+  text-align: center; 
+  outline: none; 
 }
 
 .forgotPass-input:focus {
-  border-color: #FFD166; /* Orangey yellow border on focus */
+  border-color: #FFD166; 
 }
 
 .forgotPass-button {
   width: 100%;
-  background-color: #FFD166; /* Orangey yellow button */
-  color: #ffffff; /* White text */
+  background-color: #FFD166; 
+  color: #ffffff; 
   border: none;
   border-radius: 3px;
   padding: 10px;
@@ -41,12 +41,12 @@
 }
 
 .forgotPass-button:hover {
-  background-color: #FFCC33; /* Darker yellow on hover */
+  background-color: #FFCC33; 
 }
 
 .forgotPass-message {
   margin-top: 10px;
-  color: red; /* Red text color for error message */
+  color: red; 
 }
 
 .forgotPass-back-button {
@@ -57,6 +57,6 @@
   border: none;
   cursor: pointer;
   font-size: 16px;
-  color: #007bff; /* Orangey yellow color */
+  color: #007bff; 
   text-decoration: underline;
 }
