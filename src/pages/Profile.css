@@ -1,0 +1,42 @@
+.profile-container {
+  padding: 20px;
+  background-color: #FFD166; /* Yellow-orange background */
+ 
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the container take up the full height of the viewport */
+}
+
+.profile-content {
+  padding-top: 50px; /* Adjust as needed */
+}
+
+.profile-frame {
+  width: 80%; /* Adjust the width of the frame */
+   /* Center the frame horizontally */
+  margin-left: 600px;
+}
+
+.profile-card {
+  
+  width: 40%; /* Make the card take up the full width of the frame */
+  background-color: #ffffff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.profile-picture {
+  width: 100%;
+  height: auto;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #FFD166;
+  padding: 10px 0;
+}
+
+.footer-buttons ion-button {
+  margin: 0 10px; /* Adjust the margin as needed */
+}

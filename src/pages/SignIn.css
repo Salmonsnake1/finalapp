@@ -1,0 +1,66 @@
+.signIn-container {
+  background-color: #FFD166; /* Light grey background */
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signIn-form {
+  width: 400px; /* Adjust width as needed */
+  margin: auto; /* Center the form horizontally */
+  padding: 40px; /* Increase padding for spacing */
+  background-color: #ffffff; /* White background for form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.signIn-input {
+  width: 100%; /* Set width to 100% */
+  margin-bottom: 15px;
+  border: 1px solid #cccccc; /* Grey border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center; /* Center text */
+  outline: none; /* Remove yellow highlighting */
+}
+
+.signIn-input:focus {
+  border-color: #FFD166; /* Orangey yellow border on focus */
+}
+
+.signIn-form h1 {
+  text-align: center;
+}
+
+.signIn-button {
+  width: 100%;
+  background-color: #FFD166; /* Orangey yellow button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.signIn-button:hover {
+  background-color: #FFCC33; /* Darker yellow on hover */
+}
+
+.signIn-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgot-password,
+.sign-up {
+  text-decoration: none;
+  color: #007bff; /* Orangey yellow color */
+}
+
+.forgot-password:hover,
+.sign-up:hover {
+  text-decoration: underline;
+}

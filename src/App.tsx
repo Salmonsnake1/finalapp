@@ -1,7 +1,14 @@
+import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
+import { IonApp, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import Home from './pages/Home';
+import SignIn from './pages/SignIn'; // Import your SignIn page component
+import SignUp from './pages/SignUp';
+import ForgotPass from './pages/ForgotPass';
+import ToDo from './pages/ToDo';
+import Calendar from './pages/Calendar';
+import Profile from './pages/Profile';
+
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -38,14 +45,29 @@ setupIonicReact();
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
-      <IonRouterOutlet>
-        <Route exact path="/home">
-          <Home />
-        </Route>
-        <Route exact path="/">
-          <Redirect to="/home" />
-        </Route>
-      </IonRouterOutlet>
+        <IonRouterOutlet>
+          <Route exact path="/signin">
+            <SignIn />
+          </Route>
+          <Route exact path="/signup">
+            <SignUp />
+          </Route>
+          <Route exact path="/forgotpass">
+            <ForgotPass />
+          </Route>
+          <Route exact path="/todo">
+            <ToDo />
+          </Route>
+          <Route exact path="/calendar">
+            <Calendar />
+          </Route>
+          <Route exact path="/profile">
+            <Profile />
+          </Route>
+          <Route exact path="/">
+            <Redirect to="/signin" />
+          </Route>
+        </IonRouterOutlet>  
     </IonReactRouter>
   </IonApp>
 );

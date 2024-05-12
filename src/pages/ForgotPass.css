@@ -1,0 +1,62 @@
+.forgotPass-container {
+  background-color: #FFD166; /* Orangey yellow background */
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgotPass-form {
+  width: 400px; /* Adjust width as needed */
+  margin: auto; /* Center the form horizontally */
+  padding: 40px; /* Increase padding for spacing */
+  background-color: #ffffff; /* White background for form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.forgotPass-input {
+  width: 100%; /* Set width to 100% */
+  margin-bottom: 15px;
+  border: 1px solid #cccccc; /* Grey border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center; /* Center text */
+  outline: none; /* Remove yellow highlighting */
+}
+
+.forgotPass-input:focus {
+  border-color: #FFD166; /* Orangey yellow border on focus */
+}
+
+.forgotPass-button {
+  width: 100%;
+  background-color: #FFD166; /* Orangey yellow button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.forgotPass-button:hover {
+  background-color: #FFCC33; /* Darker yellow on hover */
+}
+
+.forgotPass-message {
+  margin-top: 10px;
+  color: red; /* Red text color for error message */
+}
+
+.forgotPass-back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff; /* Orangey yellow color */
+  text-decoration: underline;
+}

@@ -1,0 +1,61 @@
+.signUp-container {
+  background-color: #FFD166; /* Orangey yellow background */
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp-form {
+  width: 400px; /* Adjust width as needed */
+  margin: auto; /* Center the form horizontally */
+  padding: 40px; /* Increase padding for spacing */
+  background-color: #ffffff; /* White background for form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.signUp-input {
+  width: 100%; /* Set width to 100% */
+  margin-bottom: 15px;
+  border: 1px solid #cccccc; /* Grey border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center; /* Center text */
+  outline: none; /* Remove yellow highlighting */
+}
+
+.signUp-input:focus {
+  border-color: #007bff; /* Blue border on focus */
+}
+
+.signUp-button {
+  width: 100%;
+  background-color: #FFD166; /* Yellow button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.signUp-button:hover {
+  background-color: #FFCC33; /* Darker yellow on hover */
+}
+
+.signUp-back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.signUp-form h1 {
+  text-align: center;
+}

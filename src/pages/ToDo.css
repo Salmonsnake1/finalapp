@@ -1,0 +1,53 @@
+/* ToDo.css */
+
+body {
+  background-color: #FFD166; /* Orangey yellow background */
+}
+
+.todo-container {
+  padding: 20px;
+  margin: 20px auto; /* Center the container */
+  max-width: 600px; /* Set a maximum width for the container */
+  border: 1px solid #FFD166; /* Orangey yellow border */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  background-color: #FFD166; /* White background */
+  height: 100vh;
+}
+
+.todo-input {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-button {
+  margin-bottom: 20px;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+
+/* Adjust the spacing between checkbox and delete button */
+ion-item ion-checkbox {
+  margin-right: 20px;
+}
+
+ion-item ion-button {
+  margin-left: auto;
+}
+
+.todo-container h1 {
+  text-align: center;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #FFD166;
+  padding: 10px 0;
+}
+
+.footer-buttons ion-button {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
