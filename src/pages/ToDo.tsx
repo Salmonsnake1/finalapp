@@ -39,7 +39,7 @@ const ToDo: React.FC = () => {
     <IonPage>
       <IonContent>
         <div className="todo-container">
-          <h1>ToDo List</h1>
+          <h1>To-Do List</h1>
           <IonInput
             className="todo-input"
             placeholder="Enter task"
@@ -67,7 +67,7 @@ const ToDo: React.FC = () => {
       <IonFooter>
   <IonToolbar>
     <div className="footer-buttons">
-      <IonButton onClick={() => history.push('/todo')}>ToDo</IonButton>
+      <IonButton>ToDo</IonButton>
       <IonButton onClick={handleProfileClick}>Profile</IonButton>
       <IonButton onClick={handleCalendarClick}>Calendar</IonButton>
     </div>
